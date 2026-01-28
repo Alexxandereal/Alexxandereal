@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexxandereal</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="scroll-indicator">⌄</div>
+
+  <header class="banner">
+    <img src="banner.gif" alt="banner" class="banner-gif">
+    <div class="banner-overlay"></div>
+    <div class="avatar-wrap">
+      <img src="perfil.jpg" alt="perfil" class="avatar pulse">
+    </div>
+  </header>
+
+  <button class="music-toggle" aria-label="Música">
+    <i class="fa-solid fa-music"></i>
+  </button>
+
+  <main class="card fade">
+    <h1 class="title">
+      Alexxandereal
+      <span class="badge"><i class="fa-solid fa-star"></i></span>
+    </h1>
+    <p id="desc" class="desc"></p>
+
+    <div class="quick-actions">
+      <button id="copyLink" class="qa"><i class="fa-regular fa-copy"></i> Copiar link</button>
+      <button id="shareBtn" class="qa"><i class="fa-solid fa-share-nodes"></i> Compartir</button>
+      <button id="fastModeBtn" class="qa"><i class="fa-solid fa-bolt"></i> Modo rápido</button>
+    </div>
+
+    <section class="links" id="links">
+      <a data-key="youtube" href="https://youtube.com/@alexxandereal?si=hjtDqwABdrCQgRcA" class="btn yt"><i class="fab fa-youtube"></i> YouTube</a>
+      <a data-key="tiktok" href="https://www.tiktok.com/@alexxandereal?_r=1&_t=ZS-93PkufxLTNc" class="btn tt"><i class="fab fa-tiktok"></i> TikTok</a>
+      <a data-key="instagram" href="https://www.instagram.com/alexxandereal?igsh=djQybXlhcmsxMmNq" class="btn ig"><i class="fab fa-instagram"></i> Instagram</a>
+      <a data-key="x" href="https://x.com/Alexxandereal" class="btn tw"><i class="fab fa-x-twitter"></i> X / Twitter</a>
+      <a data-key="twitch" href="https://www.twitch.tv/" class="btn twi"><i class="fab fa-twitch"></i> Twitch</a>
+      <a data-key="whatsapp" href="https://whatsapp.com/channel/0029VbC6Int6hENxkqxuMN2C" class="btn wa"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a data-key="discord1" href="https://discord.gg/W72Dc5Ua6A" class="btn dc"><i class="fab fa-discord"></i> BlueEmber</a>
+      <a data-key="discord2" href="https://discord.gg/nicverse-1240501665120125039" class="btn dc2"><i class="fab fa-discord"></i> Nicverse</a>
+    </section>
+  </main>
+
+  <div class="aurora"></div>
+  <div class="waves"></div>
+  <div class="particles"></div>
+
+  <audio id="bgMusic" loop>
+    <source src="bgMusic.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="clickSound">
+    <source src="click.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
